@@ -25,7 +25,7 @@
 
 :root {
     /* Background Color */
-    --primary-color: #021832;
+    --primary-color: #e82023;
     --secondary-color: #caa169;
     --bg-color: #f4f4f4;
     --bg-white: #fff;
@@ -34,7 +34,7 @@
     /* Text Style */
     --primary-font: 'Poppins', sans-serif;
     --secondary-font: 'Oswald', sans-serif;
-    --primary-text: #021832;
+    --primary-text: #e82023;
     --secondary-text: #caa169;
     --text-white: #fff;
     --text-black: #151515;
