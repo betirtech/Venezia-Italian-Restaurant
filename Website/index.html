@@ -4,8 +4,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Website Design by Code4education</title>
+    <title>Venezia Italian Restaurant</title>
 
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -16,13 +17,18 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
 
     <!-- Custom File's Link -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/scrollStyle.css">
+
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive-style.css">
+    
 
 </head>
 
@@ -161,124 +167,213 @@
     <!-- About section exit -->
 
     <!-- Rooms section -->
-    <section id="rooms" class="rooms_wrapper">
+    <section id="room" >
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12 section-title text-center mb-5">
-                    <h6>What I can do for you</h6>
-                    <h3>Our Favorite Rooms</h3>
+                    <h6>What I can get for you</h6>
+                    <h3>Our Favorite Menus</h3>
                 </div>
             </div>
           
-            <div class="gallery">
-                <!-- =============== SWIPER GALLERY CARDS =============== -->
-                <div class="swiper gallery-cards">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <article class="gallery__card">
-                                <img src="images/room/pizza.jfif" alt="image gallery" class="gallery__img">
-                                <div class="gallery__data">
-                                    <h3 class="gallery__title">Venezia Pizza</h3>
-                                    <span class="gallery__subtitle">350ETB</span>
-                                </div>
-                            </article>
+            <div class="container">
+                <div class="swiper tranding-slider">
+                  <div class="swiper-wrapper">
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="images/room/tranding-food-1.png" alt="Tranding">
+                      </div>
+                      <div class="tranding-slide-content">
+                        <h1 class="food-price">400ETB</h1>
+                        <div class="tranding-slide-content-bottom">
+                          <h2 class="food-name">
+                            Venezia Pizza
+                          </h2>
+                          <h3 class="food-rating">
+                            <span>4.5</span>
+                            <div class="rating">
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                            </div>
+                          </h3>
                         </div>
-    
-                        <div class="swiper-slide">
-                            <article class="gallery__card">
-                                <img src="images/room/spaghetti.jfif" alt="image gallery" class="gallery__img">
-                                <div class="gallery__data">
-                                    <h3 class="gallery__title">Spaghetti</h3>
-                                    <span class="gallery__subtitle">200ETB</span>
-                                </div>
-                            </article>
-                        </div>
-    
-                        <div class="swiper-slide">
-                            <article class="gallery__card">
-                                <img src="images/room/lazagna.jfif" alt="image gallery" class="gallery__img">
-                                <div class="gallery__data">
-                                    <h3 class="gallery__title">Italian Lazagna</h3>
-                                    <span class="gallery__subtitle">450ETB</span>
-                                </div>
-                            </article>
-                        </div>
-    
-                        <div class="swiper-slide">
-                            <article class="gallery__card">
-                                <img src="images/room/fired fish2.jfif" alt="image gallery" class="gallery__img">
-                                <div class="gallery__data">
-                                    <h3 class="gallery__title">Fried Fish</h3>
-                                    <span class="gallery__subtitle">350ETB</span>
-                                </div>
-                            </article>
-                        </div>
-    
-                        <div class="swiper-slide">
-                            <article class="gallery__card">
-                                <img src="images/room/beef tibs.jfif" alt="image gallery" class="gallery__img">
-                                <div class="gallery__data">
-                                    <h3 class="gallery__title">Beef Tibs</h3>
-                                    <span class="gallery__subtitle">300ETB</span>
-                                </div>
-                            </article>
-                        </div>
+                      </div>
                     </div>
-                </div>
-    
-                <!-- =============== SWIPER GALLERY THUMBNAIL =============== -->
-                <div class="gallery__overflow">
-                    <div class="swiper gallery-thumbs">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="gallery__thumbnail">
-                                    <img src="images/room/pizza.jfif" alt="image thumbnail" class="gallery__thumbnail-img">
-                                </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="images/room/lasagna.jpg" alt="Tranding">
+                      </div>
+                      <div class="tranding-slide-content">
+                        <h1 class="food-price">350ETB</h1>
+                        <div class="tranding-slide-content-bottom">
+                          <h2 class="food-name">
+                            Lasagna
+                          </h2>
+                          <h3 class="food-rating">
+                            <span>4.5</span>
+                            <div class="rating">
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
                             </div>
-        
-                            <div class="swiper-slide">
-                                <div class="gallery__thumbnail">
-                                    <img src="images/room/spaghetti.jfif" alt="image thumbnail" class="gallery__thumbnail-img">
-                                </div>
-                            </div>
-        
-                            <div class="swiper-slide">
-                                <div class="gallery__thumbnail">
-                                    <img src="images/room/lazagna.jfif" alt="image thumbnail" class="gallery__thumbnail-img">
-                                </div>
-                            </div>
-        
-                            <div class="swiper-slide">
-                                <div class="gallery__thumbnail">
-                                    <img src="images/room/fired fish2.jfif" alt="image thumbnail" class="gallery__thumbnail-img">
-                                </div>
-                            </div>
-                            
-                            <div class="swiper-slide">
-                                <div class="gallery__thumbnail">
-                                    <img src="images/room/beef tibs.jfif" alt="image thumbnail" class="gallery__thumbnail-img">
-                                </div>
-                            </div>
+                          </h3>
                         </div>
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="images/room/spaghetti2.jpg" alt="Tranding">
+                      </div>
+                      <div class="tranding-slide-content">
+                        <h1 class="food-price">250ETB</h1>
+                        <div class="tranding-slide-content-bottom">
+                          <h2 class="food-name">
+                            Spaghetti
+                          </h2>
+                          <h3 class="food-rating">
+                            <span>4.5</span>
+                            <div class="rating">
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                            </div>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="images/room/fried fish.jpg" alt="Tranding">
+                      </div>
+                      <div class="tranding-slide-content">
+                        <h1 class="food-price">250ETB</h1>
+                        <div class="tranding-slide-content-bottom">
+                          <h2 class="food-name">
+                            Fried fish
+                          </h2>
+                          <h3 class="food-rating">
+                            <span>4.5</span>
+                            <div class="rating">
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                            </div>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="images/room/roasted chicken.jpg" alt="Tranding">
+                      </div>
+                      <div class="tranding-slide-content">
+                        <h1 class="food-price">500ETB</h1>
+                        <div class="tranding-slide-content-bottom">
+                          <h2 class="food-name">
+                            Roasted Chicken
+                          </h2>
+                          <h3 class="food-rating">
+                            <span>4.5</span>
+                            <div class="rating">
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                            </div>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="images/room/cocktail.jpg" alt="Tranding">
+                      </div>
+                      <div class="tranding-slide-content">
+                        <h1 class="food-price">600ETB</h1>
+                        <div class="tranding-slide-content-bottom">
+                          <h2 class="food-name">
+                            Cocktail
+                          </h2>
+                          <h3 class="food-rating">
+                            <span>4.5</span>
+                            <div class="rating">
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                            </div>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="images/room/wine.jpg" alt="Tranding">
+                      </div>
+                      <div class="tranding-slide-content">
+                        <h1 class="food-price">450ETB</h1>
+                        <div class="tranding-slide-content-bottom">
+                          <h2 class="food-name">
+                            Wine
+                          </h2>
+                          <h3 class="food-rating">
+                            <span>4.5</span>
+                            <div class="rating">
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                            </div>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                  </div>
         
-                        <!-- Swiper pagination -->
-                        <div class="swiper-pagination"></div>
+                  <div class="tranding-slider-control">
+                    <div class="swiper-button-prev slider-arrow">
+                      <ion-icon name="arrow-back-outline"></ion-icon>
                     </div>
-    
-                    <!-- Swiper arrows -->
-                    <div class="swiper-button-next">
-                        <i class="ri-arrow-right-line"></i>
+                    <div class="swiper-button-next slider-arrow">
+                      <ion-icon name="arrow-forward-outline"></ion-icon>
                     </div>
-                    <div class="swiper-button-prev">
-                        <i class="ri-arrow-left-line"></i>
-                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+        
                 </div>
             </div>
             
-            <script src="js/swiper-bundle.min.js"></script>
-    
             
-            <script src="js/swiper-main.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+            <script src="js/script.js"></script>
     
         </div>
     </section>
@@ -358,7 +453,8 @@
                     <!--Service Tab Menu Area End-->
                 </div>
             </div>
-        </div>    </section>
+        </div>   
+     </section>
     <!-- Services section Exit -->
 
     <!-- Team section -->
