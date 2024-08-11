@@ -579,16 +579,34 @@ p {
     border-color: var(--bg-white)
 }
 
-/*10 blog */
-.blog-content {
-    margin: -5rem 0 0 4.375rem;
-    box-shadow: 0 .125rem .25rem rgb(34 30 31 / 40%);
+.containerr {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
-.our-partner-slider {
-    background-color: var(--bg-color);
-    padding: 3.125rem 0;
+.roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.col-md-4 {
+    flex: 0 0 33.33%;
+    padding: 15px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
 
 /* 11 footer */
 .footer_wrapper {
