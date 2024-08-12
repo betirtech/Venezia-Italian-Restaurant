@@ -207,7 +207,7 @@ p {
 
 /* 3 Banner */
 .banner_wrapper {
-    height: 40.625rem;
+    height: 48.625rem;
 }
 
 .banner_wrapper .swiper {
@@ -258,7 +258,7 @@ p {
     color: var(--text-white);
 }
 
-.booking-area {
+/* .booking-area {
     background: var(--bg-white);
     box-shadow: 0 .625rem .9375rem 0 rgb(0 0 0 / 10%);
     margin-top: -4rem;
@@ -281,7 +281,7 @@ p {
 .booking-area .form-select:focus {
     outline: none;
     box-shadow: none;
-}
+} */
 
 /* 4 About */
 .about_wrapper {
